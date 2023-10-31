@@ -27,4 +27,4 @@ class Product {
   updated_at: Date;
 }
 
-export default Product;
+export default Product
