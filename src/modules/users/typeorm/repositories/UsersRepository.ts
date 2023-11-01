@@ -10,7 +10,7 @@ class UsersRepository extends Repository<User> {
       },
     });
 
-    return user
+    return user;
   }
 
   public async findById(id: string): Promise<User | undefined> {
@@ -20,7 +20,7 @@ class UsersRepository extends Repository<User> {
       },
     });
 
-    return user
+    return user;
   }
 
   public async findByEmail(email: string): Promise<User | undefined> {
@@ -30,8 +30,8 @@ class UsersRepository extends Repository<User> {
       },
     });
 
-    return user
+    return user;
   }
 }
 
-export default UsersRepository
+export default UsersRepository;

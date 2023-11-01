@@ -8,6 +8,11 @@ import {
 
 @Entity('products')
 class Product {
+
+  findByName(name: string) {
+    throw new Error('Method not implemented.');
+  }
+
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
@@ -27,4 +32,4 @@ class Product {
   updated_at: Date;
 }
 
-export default Product
+export default Product;

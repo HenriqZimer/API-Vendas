@@ -1,5 +1,6 @@
 {
   "root": true,
+  "no-unused-vars": "off",
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint", "prettier"],
   "extends": [
