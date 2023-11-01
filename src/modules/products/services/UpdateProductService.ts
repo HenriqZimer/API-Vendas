@@ -1,5 +1,5 @@
 import { getCustomRepository } from 'typeorm';
-import { ProductRepository } from '../typeorm/repositories/ProductsRepository';
+import ProductsRepository from '../typeorm/repositories/ProductsRepository';
 import Product from '../typeorm/entities/Product';
 import AppError from '@shared/errors/AppErrors';
 
@@ -17,7 +17,7 @@ class UpdateProductService {
     price,
     quantity,
   }: IRequest): Promise<Product> {
-    const productsRepository = getCustomRepository(ProductRepository);
+    const productsRepository = getCustomRepository(ProductsRepository);
 
     const product = await productsRepository.findOne(id);
 
