@@ -4,7 +4,7 @@ import 'express-async-errors';
 import cors from 'cors';
 import { errors } from 'celebrate';
 import routes from './routes';
-import AppError from '@shared/errors/AppErrors';
+import AppError from '@shared/errors/AppError';
 import '@shared/typeorm';
 import uploadConfig from '@config/upload';
 

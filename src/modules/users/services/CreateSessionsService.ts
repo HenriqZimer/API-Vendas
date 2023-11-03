@@ -1,4 +1,4 @@
-import AppError from '@shared/errors/AppErrors';
+import AppError from '@shared/errors/AppError';
 import { compare } from 'bcryptjs';
 import { getCustomRepository } from 'typeorm';
 import { sign } from 'jsonwebtoken';
