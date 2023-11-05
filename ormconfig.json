@@ -4,7 +4,7 @@
   "port": 5432,
   "username": "henriqzimer",
   "password": "henrique08",
-  "database": "apivendas",
+  "database": "api-vendas",
   "entities": ["./src/modules/**/typeorm/entities/*.ts"],
   "migrations": ["./src/shared/typeorm/migrations/*.ts"],
   "cli": {
